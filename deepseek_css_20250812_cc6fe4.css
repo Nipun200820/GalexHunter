@@ -1,0 +1,59 @@
+/* Contact Page Styles */
+.content-page {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-box {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-card {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #4e9af1;
+}
+
+.discord-card {
+    background-color: #5865F2;
+    color: white;
+}
+
+.discord-card i {
+    color: white;
+}
+
+.app-list {
+    margin: 1rem 0 2rem 2rem;
+}
+
+.app-list li {
+    margin-bottom: 0.5rem;
+}
